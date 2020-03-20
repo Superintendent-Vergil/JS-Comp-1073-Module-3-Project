@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Vacation Property</title>
     <script src="js/main.js" async></script>
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -11,15 +11,18 @@
 
     </header>
     <main>
-        <h1>Test:</h1>
-        <Button id="p1Btn" onClick="propertyOne.description();">Property One</Button>
-        <Button id="p2Btn" onClick="propertyTwo.description();">Property Two</Button>
-        <Button id="sp1Btn" onClick="specialPropertyOne.description();">Special Property One</Button>
-        <p id="One"></p>
+        <h1>Vacation Property</h1>
+        <Button id="p1Btn" onClick="propertyOne.description();" class="collapseBox">Property One</Button>
+        <div class="collapseText">
 
-        <button type="button" class="collapsible">Open Collapsible</button>
-        <div class="content">
-            <p>Lorem ipsum...</p>
+        </div>
+        <Button id="p2Btn" onClick="propertyTwo.description();" class="collapseBox">Property Two</Button>
+        <div class="collapseText">
+
+        </div>
+        <Button id="p3Btn" onClick="specialPropertyOne.description();" class="collapseBox">Special Property One</Button>
+        <div class="collapseText">
+
         </div>
     </main>
     <footer>
